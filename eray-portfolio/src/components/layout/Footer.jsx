@@ -13,9 +13,15 @@ function Footer() {
       </span>
 
       <div className="flex gap-2 text-white/50 text-xs">
-        <a href="www.github.com/eraykstrl">Github</a>
-        <a href="www.linkedin.com/in/eray-kstrl">Linkedin</a>
-        <a href="eray.kostereli@gmail.com">Contact</a>
+        <a href="https://github.com/eraykstrl" target="_blank" rel="noreferrer">
+          Github
+        </a>
+        <a href="https://linkedin.com/in/eray-kstrl" target="_blank" rel="noreferrer">
+          Linkedin
+        </a>
+        <a href="mailto:eray.kostereli@gmail.com">
+          Contact
+        </a>
       </div>
 
     </footer>
