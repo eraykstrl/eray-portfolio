@@ -16,7 +16,7 @@ function Skills() {
         infrastructure, and exceptional developer experience. My toolkit is continually evolving with the industry’s best practices.
       </p>
 
-      <div className="grid grid-cols-4 mt-16 jusitfy-between ml-16">
+      <div className="grid grid-cols-1 md:grid-cols:2 lg:grid-cols-4 mt-16 ml-16 mr-16 gap-12">
 
         <div className="flex flex-col">
 
