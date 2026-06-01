@@ -24,18 +24,18 @@ function Skills() {
 
           <div className="flex flex-col mt-8 ml-4">
             <span className="text-white/100" text-base>Kotlin</span>
-            <span className="text-white/50 text-s">Advanced Leval Kotlin</span>
+            <span className="text-white/50 text-s">Advanced level kotlin</span>
           </div>
 
 
           <div className="flex flex-col mt-8 ml-4">
             <span className="text-white/100" text-base>Jetpack Compose</span>
-            <span className="text-white/50 text-s">Modern UI Systems</span>
+            <span className="text-white/50 text-s">Modern UI systems</span>
           </div>
 
           <div className="flex flex-col mt-8 ml-4">
             <span className="text-white/100" text-base>MVVM & MVVM Clean</span>
-            <span className="text-white/50 text-s">Modern Architecture</span>
+            <span className="text-white/50 text-s">Modern architecture</span>
           </div>
 
           <div className="flex flex-col mt-8 ml-4">
@@ -76,22 +76,22 @@ function Skills() {
           </div>
 
           <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>Modern ML Models</span>
+            <span className="text-white/100" text-base>Modern ML models</span>
             <span className="text-white/50 text-s">XGBoost, LightGBM, Catboost</span>
           </div>
 
           <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>Deep Learning</span>
+            <span className="text-white/100" text-base>Deep learning</span>
             <span className="text-white/50 text-s">Tensorflow</span>
           </div>
 
           <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>CUDA & System Optimization</span>
+            <span className="text-white/100" text-base>CUDA & System optimization</span>
             <span className="text-white/50 text-s">System optimization, distributed computing</span>
           </div>
 
           <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>Computer Vision</span>
+            <span className="text-white/100" text-base>Computer vision</span>
             <span className="text-white/50 text-s">Tensorflow & CNN</span>
           </div>
         </div>
@@ -102,13 +102,13 @@ function Skills() {
 
           <div className="flex flex-col mt-8 ml-4">
             <span className="text-white/100" text-base>HTML & CSS</span>
-            <span className="text-white/50 text-s">Basic Systems</span>
+            <span className="text-white/50 text-s">Basic systems</span>
           </div>
 
 
           <div className="flex flex-col mt-8 ml-4">
             <span className="text-white/100" text-base>React.js</span>
-            <span className="text-white/50 text-s">Server Components</span>
+            <span className="text-white/50 text-s">Server components</span>
           </div>
 
           <div className="flex flex-col mt-8 ml-4">
@@ -124,12 +124,18 @@ function Skills() {
 
           <div className="flex flex-col mt-8 ml-4">
             <span className="text-white/100" text-base>Python</span>
-            <span className="text-white/50 text-s">Advanced Leval Python</span>
+            <span className="text-white/50 text-s">Advanced level python</span>
           </div>
           <div className="flex flex-col mt-8 ml-4">
             <span className="text-white/100" text-base>FastAPI</span>
-            <span className="text-white/50 text-s">High Performance</span>
+            <span className="text-white/50 text-s">High performance</span>
           </div>
+
+          <div className="flex flex-col mt-8 ml-4">
+            <span className="text-white/100" text-base>Docker</span>
+            <span className="text-white/50 text-s">Easy deploying</span>
+          </div>
+          
         </div>
 
       </div>
