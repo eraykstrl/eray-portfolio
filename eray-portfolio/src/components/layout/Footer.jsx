@@ -9,9 +9,8 @@ function Footer() {
       </span>
 
       <span className="text-white text-xs font-mono">
-        @2026 All Right Reserved.
+        @2026
       </span>
-
 
       <div className="flex gap-6 text-white/50 text-xs">
         <a href="#">Github</a>
