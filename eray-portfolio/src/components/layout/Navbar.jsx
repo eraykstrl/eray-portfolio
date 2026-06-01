@@ -37,7 +37,9 @@ function Navbar() {
           ))}
         </div>
 
-        <button className="hidden md:block font-mono text-white px-4 py-2 border border-white/20 text-xs rounded">
+        <button 
+          onClick={() => window.location.href = "mailto:eray.kostereli@gmail.com"}
+          className="hidden md:block font-mono text-white px-4 py-2 border border-white/20 text-xs rounded hover:bg-[#002113] hover:cursor-pointer">
           Connect
         </button>
 

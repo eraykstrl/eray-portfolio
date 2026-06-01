@@ -1,4 +1,5 @@
 import hitshopImage from "../assets/hitshop_image.png";
+import akillikampus from "../assets/akillikampus.png"
 
 function Projects() {
   return(
@@ -21,7 +22,7 @@ function Projects() {
         <div className="flex flex-col md:flex-row items-center md:items-start bg-[#0D1C2D] rounded-xl p-6">
           <img 
             src={hitshopImage} 
-            alt="Hitshop" 
+            alt="HitShop" 
             className="w-full md:w-64 h-auto object-cover rounded-lg mb-4 md:mb-0" 
           />
           <p className="md:ml-8 text-white/90 text-sm mt-2 text-center md:text-left">
@@ -31,8 +32,8 @@ function Projects() {
 
         <div className="flex flex-col md:flex-row items-center md:items-start bg-[#0D1C2D] rounded-xl p-6">
           <img 
-            src={hitshopImage} 
-            alt="Proje 2" 
+            src={akillikampus} 
+            alt="AkilliKampus" 
             className="w-full md:w-64 h-auto object-cover rounded-lg mb-4 md:mb-0" 
           />
           <p className="md:ml-8 text-white/90 text-sm mt-2 text-center md:text-left">

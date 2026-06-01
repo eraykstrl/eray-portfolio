@@ -19,11 +19,11 @@ function Hero() {
       </p>
 
       <div className="flex gap-3 justify-center">
-        <button className="px-7 py-3 bg-blue-600 text-white text-sm font-medium rounded-md">
+        <button className="px-7 py-3 bg-blue-600 text-white text-sm font-medium rounded-md hover:cursor-pointer">
           View Projects
         </button>
 
-        <button className="px-7 py-3 border border-white/15 text-white/70 text-sm rounded-md">
+        <button className="px-7 py-3 border border-white/15 text-white/70 text-sm rounded-md hover:cursor-pointer">
           Contact
         </button>
       </div>
