@@ -17,7 +17,7 @@ function Projects() {
       A collection of architectural software solutions, focusing on performance, scalability, and technical elegance.
       </p>
 
-      <div className="grid grid-cols-2 gap-8 p-16">
+      <div className="grid md:grid-cols-2 gap-8 p-16">
 
         <div className="flex bg-[#0D1C2D] rounded-xl p-6">
           <img src={hitshopImage} alt="Hitshop" className="w-64 h-auto object-contain rounded-lg" />
