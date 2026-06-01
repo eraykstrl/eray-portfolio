@@ -2,7 +2,7 @@
 function Footer() {
 
   return(
-    <footer className="flex items-center justify-between bg-[#0D1C2D] px-12 py-6 border-t border-white/10">
+    <footer className="flex items-center justify-between bg-[#0D1C2D] px-4 py-6 border-t border-white/10">
 
       <span className="text-white text-xs font-mono">
         Eray Kosterelioglu
