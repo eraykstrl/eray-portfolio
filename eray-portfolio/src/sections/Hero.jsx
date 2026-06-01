@@ -2,7 +2,7 @@
 function Hero() {
 
   return(
-    <section className="bg-[#0a0e17]/85 text-center px-12 pt-20 mb-8">
+    <section className="bg-[#0a0e17]/85 text-center px-12 pt-20 mb-8 pb-8">
       
       <div className="text-emerald-400 font-mono text-xs tracking-widest uppercase-mb-7">
         ● Available for new projects
