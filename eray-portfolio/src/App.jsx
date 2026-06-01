@@ -9,7 +9,7 @@ import Experience from "./pages/Experience";
 function App() {
   return (
     <BrowserRouter>
-      <div className="min-h-screen text-white bg-[#121212] flex flex-col">
+      <div className="min-h-screen text-white bg-[#121212] flex flex-col overflow-x-hidden">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
