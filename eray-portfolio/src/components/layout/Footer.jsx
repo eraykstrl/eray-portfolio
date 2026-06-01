@@ -12,10 +12,10 @@ function Footer() {
         @2026
       </span>
 
-      <div className="flex gap-6 text-white/50 text-xs">
-        <a href="#">Github</a>
-        <a href="#">Linkedin</a>
-        <a href="#">Contact</a>
+      <div className="flex gap-2 text-white/50 text-xs">
+        <a href="www.github.com/eraykstrl">Github</a>
+        <a href="www.linkedin.com/in/eray-kstrl">Linkedin</a>
+        <a href="eray.kostereli@gmail.com">Contact</a>
       </div>
 
     </footer>
