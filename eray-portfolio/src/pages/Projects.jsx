@@ -25,9 +25,14 @@ function Projects() {
             alt="HitShop" 
             className="w-full md:w-64 h-auto object-cover rounded-lg mb-4 md:mb-0" 
           />
-          <p className="md:ml-8 text-white/90 text-sm mt-2 text-center md:text-left">
-            I developed a chatbot in this project
-          </p>
+          <p className="md:ml-8 text-white/90 text-xl mt-2 text-center md:text-left">
+          HitShop is a modern e-commerce mobile application inspired by platforms like Trendyol.
+          It provides users with a seamless shopping experience, allowing them to browse products,
+          search items, view detailed product pages, and manage their favorites within a clean and
+          intuitive interface. Built with Kotlin and Jetpack Compose, the app follows MVVM Clean
+          Architecture and modern Android development best practices, including dependency injection
+          with Hilt and local data persistence using Room.
+        </p>
         </div>
 
         <div className="flex flex-col md:flex-row items-center md:items-start bg-[#0D1C2D] rounded-xl p-6">
@@ -36,9 +41,14 @@ function Projects() {
             alt="AkilliKampus" 
             className="w-full md:w-64 h-auto object-cover rounded-lg mb-4 md:mb-0" 
           />
-          <p className="md:ml-8 text-white/90 text-sm mt-2 text-center md:text-left">
-            Açıklama buraya
-          </p>
+          <p className="md:ml-8 text-white/90 text-xl mt-2 text-center md:text-left">
+          A location-based smart campus safety and health notification system designed to
+          provide real-time emergency alerts within a campus environment. The application
+          visualizes incidents on a map based on severity levels and sends instant push
+          notifications to users. Built with Kotlin, Jetpack Compose, and Firebase,
+          the system enables administrators to create and manage emergency alerts,
+          while users receive real-time updates through Firebase Cloud Messaging.
+        </p>
         </div>
 
       </div>
