@@ -9,7 +9,7 @@ function Footer() {
       </span>
 
       <span className="text-white text-xs font-mono">
-        @2026 Eray Kosterelioglu Portfolio. All Right Reserved.
+        @2026 All Right Reserved.
       </span>
 
 
