@@ -1,0 +1,104 @@
+{
+  "navbar": {
+    "developer": "Yazılım Geliştirici",
+    "home": "Ana Sayfa",
+    "projects": "Projeler",
+    "skills": "Yetenekler",
+    "experience": "Deneyim"
+  },
+  "hero": {
+    "status": "Yeni fırsatlara açık",
+    "title": "Dijital Ürünler Geliştiriyorum",
+    "with": "ile",
+    "description": "Mobil geliştirme, frontend, backend ve makine öğrenmesi alanlarına odaklanan bilgisayar mühendisliği öğrencisi — fikirden canlıya kadar uçtan uca uygulamalar geliştiriyorum.",
+    "viewProjects": "Projeleri Gör",
+    "contact": "İletişim"
+  },
+  "stats": {
+    "mlLabel": "YZ . Makine Öğrenmesi",
+    "mlValue": "Python, PyTorch, TensorFlow, Scikit-learn, Pandas, MLOps",
+    "androidLabel": "Android Geliştirici",
+    "androidValue": "Kotlin, Jetpack Compose, Android SDK, Firebase",
+    "webLabel": "Web Geliştirici",
+    "webValue": "React.js, Tailwind CSS, FastAPI, Docker, RabbitMQ"
+  },
+  "projects": {
+    "selected": "Öne Çıkan Projeler",
+    "allproject" : "Tüm Projeler İçin Tıkla",
+    "hitshop": "HitShop, kullanıcılara kusursuz bir alışveriş deneyimi sunan modern bir e-ticaret mobil uygulamasıdır. Temiz ve sezgisel bir arayüz içerisinde kullanıcıların ürünlere göz atmasını, arama yapmasını, detaylı ürün sayfalarını incelemesini ve favorilerini yönetmesini sağlar. Kotlin ve Jetpack Compose ile geliştirilen uygulama, Hilt ile bağımlılık enjeksiyonu ve Room ile yerel veri yönetimi dahil olmak üzere MVVM Clean Architecture ve modern Android geliştirme standartlarına uygun olarak tasarlanmıştır.",
+    "smartcampus": "Kampüs ortamında gerçek zamanlı acil durum uyarıları sağlamak üzere tasarlanmış, konum tabanlı bir akıllı kampüs güvenlik ve sağlık bildirim sistemidir. Uygulama, vakaları ciddiyet derecelerine göre harita üzerinde görselleştirir ve kullanıcılara anında bildirim gönderir. Kotlin, Jetpack Compose ve Firebase ile geliştirilen sistem, yöneticilerin acil durum alarmları oluşturup yönetmesine olanak tanırken, kullanıcıların Firebase Cloud Messaging üzerinden gerçek zamanlı güncellemeler almasını sağlar.",
+    "erayai": "Kendi özgeçmişim ve verilerimle çalışan, Retrieval-Augmented Generation (RAG) tabanlı kişisel yapay zeka asistanı. FAISS vektör veritabanı ve Sentence Transformers kullanarak kullanıcı sorularını işleyen sistem, LangGraph ile yönetilen dinamik bir akışa sahiptir. Retrieval kalitesi düştüğünde sorguyu otomatik olarak yeniden yazarak (query rewrite) bağlam doğruluğunu artırır. Backend'de FastAPI ve yerel LLM (Ollama/LLaMA 3.1) kullanılırken, frontend tarafı React ile sıfırdan geliştirilmiştir. Proje, chunk stratejisi ve bağlam (context) yönetimi gibi ileri düzey RAG mimarilerini uçtan uca sergilemektedir."
+  },
+  "skills": {
+    "overview": "TEKNOLOJİ YIĞINI",
+    "skills": "Yetenekler",
+    "text": "Tip güvenliği, temiz mimari ve iyi bir geliştirici deneyimine odaklanarak hızlı ve ölçeklenebilir dijital ürünler geliştiriyorum. Kullandığım teknolojileri modern uygulamalar ve araçlarla her zaman güncel tutmayı seviyorum.",
+    
+    "catMobile": "Mobil & Android",
+    "mobKotlin": "Kotlin",
+    "mobKotlinDesc": "Modern Android uygulama geliştirme",
+    "mobCompose": "Jetpack Compose",
+    "mobComposeDesc": "Deklaratif & reaktif arayüz tasarımı",
+    "mobMVVM": "MVVM & Clean Architecture",
+    "mobMVVMDesc": "Ölçeklenebilir & test edilebilir mimari",
+    "mobDI": "Dependency Injection",
+    "mobDIDesc": "Hilt ile güvenli bağımlılık yönetimi",
+    "mobRetrofit": "Retrofit & Room",
+    "mobRetrofitDesc": "Uzak API & yerel veri yönetimi",
+    "mobDesign": "Tasarım Desenleri",
+    "mobDesignDesc": "SOLID prensipleri & temiz kod (Clean Code)",
+
+    "catML": "YZ & Makine Öğrenmesi",
+    "mlPython": "Python",
+    "mlPythonDesc": "Veri & YZ veri hatları için temel dil",
+    "mlScikit": "Scikit-learn & Geleneksel ML",
+    "mlScikitDesc": "Tahmine dayalı modelleme & sınıflandırma",
+    "mlDataPre": "Veri Ön İşleme",
+    "mlDataPreDesc": "Pandas & NumPy ile öznitelik mühendisliği",
+    "mlModels": "LLM & RAG Sistemleri",
+    "mlModelsDesc": "LangGraph, FAISS & Vektör veritabanları",
+    "mlDL": "Derin Öğrenme (Deep Learning)",
+    "mlDLDesc": "PyTorch & TensorFlow framework'leri",
+    "mlCuda": "Gelişmiş Modeller",
+    "mlCudaDesc": "Transformer & Cümle (Sentence) Embedding",
+    "mlCV": "Bilgisayarlı Görü (CV)",
+    "mlCVDesc": "CNN mimarileri (EfficientNet, ConvNeXt)",
+
+    "catFrontend": "Frontend",
+    "feHtml": "HTML & CSS",
+    "feHtmlDesc": "Semantik yapı & modern web standartları",
+    "feReact": "React.js",
+    "feReactDesc": "Dinamik SPA (Single Page App) geliştirme",
+    "feTailwind": "Tailwind CSS",
+    "feTailwindDesc": "Responsive, utility-first tasarım",
+
+    "catBackend": "Backend",
+    "bePython": "RabbitMQ",
+    "bePythonDesc": "Asenkron mesajlaşma & mikroservisler",
+    "beFastapi": "FastAPI",
+    "beFastapiDesc": "Yüksek performanslı asenkron API geliştirme",
+    "beDocker": "Docker",
+    "beDockerDesc": "Konteynerleştirme (Containerization) & izole ortamlar"
+  },
+  "experience": {
+    "journeyTitle": "Kariyer Yolculuğum",
+    
+    "tubitakDuration": "4 Ay",
+    "tubitakDates": "Şub 2026 - May 2026",
+    "tubitakCompany": "TÜBİTAK UME",
+    "tubitakRole": "Bilgisayar Mühendisliği Stajyeri",
+    "tubitakDesc1": "Makine öğrenmesi modelleri için veri setlerini hazırlamak amacıyla Python, NumPy ve Pandas kullanarak uçtan uca veri ön işleme ve öznitelik mühendisliği (feature engineering) tekniklerini kullandım.",
+    "tubitakDesc2": "Sınıflandırma ve regresyon görevleri için Scikit-learn, TensorFlow ve Keras kullanarak makine öğrenmesi ve derin öğrenme modelleri geliştirip optimize ettim.",
+    "tubitakDesc3": "Model seçimi, eğitim verimliliği ve optimizasyon süreçlerini iyileştirmek için AutoML tekniklerini araştırdım.",
+    "tubitakDesc4": "Docker ve RabbitMQ kullanarak ölçeklenebilir ML sistemleri canlıya aldım (deploy) ve çift yönlü çıkarım (inference) yeteneklerine sahip bir Dijital İkiz (Digital Twin) platformuna katkıda bulundum.",
+    
+    "simurgDuration": "1 Yıl",
+    "simurgDates": "Haz 2023 - Eyl 2024",
+    "simurgCompany": "ATA AIT SIMURG",
+    "simurgRole": "Yazılım Geliştirme Lideri",
+    "simurgDesc1": "YOLO tabanlı nesne tespiti modellerini eğitip değerlendirdim ve bilgisayarlı görü uygulamaları için OpenCV kullanarak gerçek zamanlı çıkarım (inference) hatları geliştirdim.",
+    "simurgDesc2": "Hem işlenmiş hem de ham video karelerini aktarmak için soket programlama kullanarak Wi-Fi üzerinden kablosuz görüntü iletimi sağladım.",
+    "simurgDesc3": "Gerçek zamanlı görüntü işleme ve sistem kontrolü için PyQt5 tabanlı bir masaüstü arayüzü geliştirdim.",
+    "simurgDesc4": "MAVLink iletişim protokolünü kullanarak drone kontrol ve komuta sistemlerinin entegrasyonunu sağladım."
+  }
+}

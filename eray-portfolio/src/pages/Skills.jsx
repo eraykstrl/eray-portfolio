@@ -1,141 +1,136 @@
-function Skills() {
-  return(
-    
-    <section className="flex flex-col bg-[#121212] mb-16">
+import { useTranslation } from "react-i18next";
 
-      <div className="text-emerald-400 font-mono text-xs uppercase-mb-7 ml-16 mt-16">
-        STACK OVERVIEW
+function Skills() {
+  const { t } = useTranslation();
+
+  return (
+    <section className="flex flex-col bg-[#121212] mb-16">
+      
+      <div className="text-emerald-400 font-mono text-xs uppercase mb-7 ml-16 mt-16">
+        {t('skills.overview')}
       </div>
 
       <div className="text-blue-400 font-mono text-5xl ml-16 mt-4">
-        Skills & Expertise
+        {t('skills.skills')}
       </div>
 
-      <p className="text-white/100 font-mono text-base mt-16 ml-16 text-24">
-        Focused on building high-velocity digital products with a focus on type-safety, scalable <br/>
-        infrastructure, and exceptional developer experience. My toolkit is continually evolving with the industry’s best practices.
+      <p className="text-white/100 font-mono text-lg mt-16 ml-16 max-w-4xl">
+        {t('skills.text')}
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols:2 lg:grid-cols-4 mt-16 ml-16 mr-16 gap-12">
-
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-16 ml-16 mr-16 gap-12">
+        
         <div className="flex flex-col">
+          <p className="text-white/100 text-5xl mb-4">{t('skills.catMobile')}</p>
 
-          <p className="text-white/100 text-5xl">Mobile & Android</p>
-
-          <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>Kotlin</span>
-            <span className="text-white/50 text-s">Advanced level kotlin</span>
+          <div className="flex flex-col mt-4">
+            <span className="text-white/100 text-base font-semibold">{t('skills.mobKotlin')}</span>
+            <span className="text-white/50 text-sm">{t('skills.mobKotlinDesc')}</span>
           </div>
 
-
-          <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>Jetpack Compose</span>
-            <span className="text-white/50 text-s">Modern UI systems</span>
+          <div className="flex flex-col mt-6">
+            <span className="text-white/100 text-base font-semibold">{t('skills.mobCompose')}</span>
+            <span className="text-white/50 text-sm">{t('skills.mobComposeDesc')}</span>
           </div>
 
-          <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>MVVM & MVVM Clean</span>
-            <span className="text-white/50 text-s">Modern architecture</span>
+          <div className="flex flex-col mt-6">
+            <span className="text-white/100 text-base font-semibold">{t('skills.mobMVVM')}</span>
+            <span className="text-white/50 text-sm">{t('skills.mobMVVMDesc')}</span>
           </div>
 
-          <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>Dependency Injection</span>
-            <span className="text-white/50 text-s">Dagger & Hilt</span>
+          <div className="flex flex-col mt-6">
+            <span className="text-white/100 text-base font-semibold">{t('skills.mobDI')}</span>
+            <span className="text-white/50 text-sm">{t('skills.mobDIDesc')}</span>
           </div>
 
-          <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>Retfrofit</span>
-            <span className="text-white/50 text-s">Modern library</span>
+          <div className="flex flex-col mt-6">
+            <span className="text-white/100 text-base font-semibold">{t('skills.mobRetrofit')}</span>
+            <span className="text-white/50 text-sm">{t('skills.mobRetrofitDesc')}</span>
           </div>
 
-          <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>Design Patterns</span>
-            <span className="text-white/50 text-s">Readable & high performance</span>
+          <div className="flex flex-col mt-6">
+            <span className="text-white/100 text-base font-semibold">{t('skills.mobDesign')}</span>
+            <span className="text-white/50 text-sm">{t('skills.mobDesignDesc')}</span>
           </div>
         </div>
 
-
+        {/* ML & AI */}
         <div className="flex flex-col">
+          <p className="text-white/100 text-5xl mb-4">{t('skills.catML')}</p>
 
-          <p className="text-white/100 text-5xl">ML & AI</p>
-
-          <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>Python</span>
-            <span className="text-white/50 text-s">Readable</span>
+          <div className="flex flex-col mt-4">
+            <span className="text-white/100 text-base font-semibold">{t('skills.mlPython')}</span>
+            <span className="text-white/50 text-sm">{t('skills.mlPythonDesc')}</span>
           </div>
 
-
-          <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>Scikit-learn</span>
-            <span className="text-white/50 text-s">Important libraries</span>
+          <div className="flex flex-col mt-6">
+            <span className="text-white/100 text-base font-semibold">{t('skills.mlScikit')}</span>
+            <span className="text-white/50 text-sm">{t('skills.mlScikitDesc')}</span>
           </div>
 
-          <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>Data preprocessing</span>
-            <span className="text-white/50 text-s">Pandas, Numpy, Matplotlib</span>
+          <div className="flex flex-col mt-6">
+            <span className="text-white/100 text-base font-semibold">{t('skills.mlDataPre')}</span>
+            <span className="text-white/50 text-sm">{t('skills.mlDataPreDesc')}</span>
           </div>
 
-          <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>Modern ML models</span>
-            <span className="text-white/50 text-s">XGBoost, LightGBM, Catboost</span>
+          <div className="flex flex-col mt-6">
+            <span className="text-white/100 text-base font-semibold">{t('skills.mlModels')}</span>
+            <span className="text-white/50 text-sm">{t('skills.mlModelsDesc')}</span>
           </div>
 
-          <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>Deep learning</span>
-            <span className="text-white/50 text-s">Tensorflow</span>
+          <div className="flex flex-col mt-6">
+            <span className="text-white/100 text-base font-semibold">{t('skills.mlDL')}</span>
+            <span className="text-white/50 text-sm">{t('skills.mlDLDesc')}</span>
           </div>
 
-          <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>CUDA & System optimization</span>
-            <span className="text-white/50 text-s">System optimization, distributed computing</span>
+          <div className="flex flex-col mt-6">
+            <span className="text-white/100 text-base font-semibold">{t('skills.mlCuda')}</span>
+            <span className="text-white/50 text-sm">{t('skills.mlCudaDesc')}</span>
           </div>
 
-          <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>Computer vision</span>
-            <span className="text-white/50 text-s">Tensorflow & CNN</span>
+          <div className="flex flex-col mt-6">
+            <span className="text-white/100 text-base font-semibold">{t('skills.mlCV')}</span>
+            <span className="text-white/50 text-sm">{t('skills.mlCVDesc')}</span>
           </div>
         </div>
 
-                <div className="flex flex-col">
+        {/* FRONTEND */}
+        <div className="flex flex-col">
+          <p className="text-white/100 text-5xl mb-4">{t('skills.catFrontend')}</p>
 
-          <p className="text-white/100 text-5xl">Frontend</p>
-
-          <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>HTML & CSS</span>
-            <span className="text-white/50 text-s">Basic systems</span>
+          <div className="flex flex-col mt-4">
+            <span className="text-white/100 text-base font-semibold">{t('skills.feHtml')}</span>
+            <span className="text-white/50 text-sm">{t('skills.feHtmlDesc')}</span>
           </div>
 
-
-          <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>React.js</span>
-            <span className="text-white/50 text-s">Server components</span>
+          <div className="flex flex-col mt-6">
+            <span className="text-white/100 text-base font-semibold">{t('skills.feReact')}</span>
+            <span className="text-white/50 text-sm">{t('skills.feReactDesc')}</span>
           </div>
 
-          <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>Tailwind CSS</span>
-            <span className="text-white/50 text-s">Utility-first, Design Systems</span>
+          <div className="flex flex-col mt-6">
+            <span className="text-white/100 text-base font-semibold">{t('skills.feTailwind')}</span>
+            <span className="text-white/50 text-sm">{t('skills.feTailwindDesc')}</span>
           </div>
-          
         </div>
 
         <div className="flex flex-col">
+          <p className="text-white/100 text-5xl mb-4">{t('skills.catBackend')}</p>
 
-          <p className="text-white/100 text-5xl">Backend</p>
-
-          <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>Python</span>
-            <span className="text-white/50 text-s">Advanced level python</span>
-          </div>
-          <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>FastAPI</span>
-            <span className="text-white/50 text-s">High performance</span>
+          <div className="flex flex-col mt-4">
+            <span className="text-white/100 text-base font-semibold">{t('skills.bePython')}</span>
+            <span className="text-white/50 text-sm">{t('skills.bePythonDesc')}</span>
           </div>
 
-          <div className="flex flex-col mt-8 ml-4">
-            <span className="text-white/100" text-base>Docker</span>
-            <span className="text-white/50 text-s">Easy deploying</span>
+          <div className="flex flex-col mt-6">
+            <span className="text-white/100 text-base font-semibold">{t('skills.beFastapi')}</span>
+            <span className="text-white/50 text-sm">{t('skills.beFastapiDesc')}</span>
           </div>
-          
+
+          <div className="flex flex-col mt-6">
+            <span className="text-white/100 text-base font-semibold">{t('skills.beDocker')}</span>
+            <span className="text-white/50 text-sm">{t('skills.beDockerDesc')}</span>
+          </div>
         </div>
 
       </div>

@@ -1,0 +1,105 @@
+{
+  "navbar": {
+    "developer": "Software Developer",
+    "home": "Home",
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience"
+  },
+  "hero": {
+  "status": "Open to new opportunities",
+  "title": "Building Digital Products",
+  "with": "with",
+  "description": "Computer engineering student focused on mobile development, frontend, backend and machine learning — building end-to-end applications from idea to deployment.",
+  "viewProjects": "View Projects",
+  "contact": "Contact"
+},
+"stats": {
+    "mlLabel": "ML . AI",
+    "mlValue": "Python, PyTorch, TensorFlow, Scikit-learn, Pandas, MLOps",
+    "androidLabel": "Android Developer",
+    "androidValue": "Kotlin, Jetpack Compose, Android SDK, Firebase",
+    "webLabel": "Web Developer",
+    "webValue": "React.js, Tailwind CSS, FastAPI, Docker, RabbitMQ"
+  },
+  "projects": {
+    "selected": "Selected Projects",
+    "allproject" : "For All Project Click",
+    "hitshop": "HitShop is a modern and comprehensive e-commerce mobile application. It provides users with a seamless shopping experience, allowing them to browse products, search items, view detailed product pages, and manage their favorites within a clean and intuitive interface. Built with Kotlin and Jetpack Compose, the app follows MVVM Clean Architecture and modern Android development best practices, including dependency injection with Hilt and local data persistence using Room.",
+    "smartcampus": "A location-based smart campus safety and health notification system designed to provide real-time emergency alerts within a campus environment. The application visualizes incidents on a map based on severity levels and sends instant push notifications to users. Built with Kotlin, Jetpack Compose, and Firebase, the system enables administrators to create and manage emergency alerts, while users receive real-time updates through Firebase Cloud Messaging.",
+    "erayai": "Kendi özgeçmişim ve verilerimle çalışan, Retrieval-Augmented Generation (RAG) tabanlı kişisel yapay zeka asistanı. FAISS vektör veritabanı ve Sentence Transformers kullanarak kullanıcı sorularını işleyen sistem, LangGraph ile yönetilen dinamik bir akışa sahiptir. Retrieval kalitesi düştüğünde sorguyu otomatik olarak yeniden yazarak (query rewrite) bağlam doğruluğunu artırır. Backend'de FastAPI ve yerel LLM (Ollama/LLaMA 3.1) kullanılırken, frontend tarafı React ile sıfırdan geliştirilmiştir. Proje, chunk stratejisi ve bağlam (context) yönetimi gibi ileri düzey RAG mimarilerini uçtan uca sergilemektedir."
+  },
+  "skills": {
+    "overview": "STACK OVERVIEW",
+    "skills": "Skills",
+    "text": "I build fast and scalable digital products with a focus on type safety, clean architecture, and good developer experience. I like keeping my stack up to date with modern practices and tools.",
+    
+    "catMobile": "Mobile & Android",
+    "mobKotlin": "Kotlin",
+    "mobKotlinDesc": "Modern Android app development",
+    "mobCompose": "Jetpack Compose",
+    "mobComposeDesc": "Declarative & reactive UI design",
+    "mobMVVM": "MVVM & Clean Architecture",
+    "mobMVVMDesc": "Scalable & testable app architecture",
+    "mobDI": "Dependency Injection",
+    "mobDIDesc": "Hilt for robust dependency management",
+    "mobRetrofit": "Retrofit & Room",
+    "mobRetrofitDesc": "Remote APIs & local data persistence",
+    "mobDesign": "Design Patterns",
+    "mobDesignDesc": "SOLID principles & clean code",
+
+    "catML": "ML & AI",
+    "mlPython": "Python",
+    "mlPythonDesc": "Core language for Data & AI pipelines",
+    "mlScikit": "Scikit-learn & Traditional ML",
+    "mlScikitDesc": "Predictive modeling & classification",
+    "mlDataPre": "Data Preprocessing",
+    "mlDataPreDesc": "Pandas & NumPy for feature engineering",
+    "mlModels": "LLMs & RAG Systems",
+    "mlModelsDesc": "LangGraph, FAISS & Vector databases",
+    "mlDL": "Deep Learning",
+    "mlDLDesc": "PyTorch & TensorFlow frameworks",
+    "mlCuda": "Advanced Models",
+    "mlCudaDesc": "Transformers & Sentence Embeddings",
+    "mlCV": "Computer Vision",
+    "mlCVDesc": "CNN architectures (EfficientNet, ConvNeXt)",
+
+    "catFrontend": "Frontend",
+    "feHtml": "HTML & CSS",
+    "feHtmlDesc": "Semantic markup & web standards",
+    "feReact": "React.js",
+    "feReactDesc": "Building dynamic Single Page Applications",
+    "feTailwind": "Tailwind CSS",
+    "feTailwindDesc": "Responsive, utility-first styling",
+
+    "catBackend": "Backend",
+    "bePython": "RabbitMQ",
+    "bePythonDesc": "Asynchronous messaging & microservices",
+    "beFastapi": "FastAPI",
+    "beFastapiDesc": "Building high-performance async APIs",
+    "beDocker": "Docker",
+    "beDockerDesc": "Containerization & isolated environments"
+  },
+  
+  "experience": {
+    "journeyTitle": "My Journey",
+    
+    "tubitakDuration": "4 Months",
+    "tubitakDates": "Feb 2026 - May 2026",
+    "tubitakCompany": "TÜBİTAK UME",
+    "tubitakRole": "Computer Engineering Intern",
+    "tubitakDesc1": "Built end-to-end data preprocessing and feature engineering pipelines using Python, NumPy, and Pandas to prepare datasets for machine learning models.",
+    "tubitakDesc2": "Developed and optimized ML and deep learning models for classification and regression tasks using Scikit-learn, TensorFlow, and Keras.",
+    "tubitakDesc3": "Researched AutoML techniques to improve model selection, training efficiency, and optimization processes.",
+    "tubitakDesc4": "Deployed scalable ML systems using Docker and RabbitMQ, and contributed to a Digital Twin platform with bidirectional inference capabilities.",
+    
+    "simurgDuration": "1 Year",
+    "simurgDates": "June 2023 - September 2024",
+    "simurgCompany": "ATA AIT SIMURG",
+    "simurgRole": "Head of Software Development",
+    "simurgDesc1": "Trained and evaluated YOLO-based object detection models, and developed real-time inference pipelines using OpenCV for computer vision applications.",
+    "simurgDesc2": "Implemented wireless image transmission over Wi-Fi using socket programming to stream both processed and raw video frames.",
+    "simurgDesc3": "Built a PyQt5-based desktop interface for real-time image processing and system control.",
+    "simurgDesc4": "Integrated drone control and command systems using the MAVLink communication protocol."
+  }
+}

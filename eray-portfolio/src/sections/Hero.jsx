@@ -1,31 +1,41 @@
+import { i } from 'framer-motion/client';
+import { useTranslation } from "react-i18next";
+import {Link} from "react-router-dom";
 
 function Hero() {
 
+  const {t, i18n} = useTranslation();
+
   return(
     <section className="bg-[#0a0e17]/85 text-center px-12 pt-20 mb-8 pb-8">
+
+      <div className='text-white/100 items-center font-bold text-5xl tracking-tight uppercase-mb-7 leading-tight'>
+        <span>Eray Kösterelioğlu</span>
+      </div>
       
-      <div className="text-emerald-400 font-mono text-xs tracking-widest uppercase-mb-7">
-        ● Available for new projects
+      <div className="text-emerald-400 font-mono text-s tracking-widest uppercase-mb-7 mt-8">
+        {t('hero.status')}
       </div>
 
       <h1 className="text-5xl font-bold text-white leading-tight tracking-tight mb-2">
-        Building Digital Experiences<br />
-        with <span className="text-emerald-400">Eray.</span>
+        {t('hero.title')}<br />
       </h1>
 
       <p className="text-white/45 text-sm max-w-md mx-auto mt-4 mb-10 leading-relaxed">
-        High-performance engineering specialized in architecting scalable,
-        resilient cloud infrastructures for the modern web.
+        {t('hero.description')}
       </p>
-
+      
       <div className="flex gap-3 justify-center">
-        <button className="px-7 py-3 bg-blue-600 text-white text-sm font-medium rounded-md hover:cursor-pointer">
-          View Projects
-        </button>
-
-        <button className="px-7 py-3 border border-white/15 text-white/70 text-sm rounded-md hover:cursor-pointer">
-          Contact
-        </button>
+        <Link
+          to = "/projects"
+          className='px-8 py-4 bg-blue-600 text-white/100 text-sm font-medium rounded-md hover:cursor-pointer'>
+          {t('hero.viewProjects')}
+      </Link>
+      <Link 
+        to = "mailto:eray.kostereli.com"
+        className="px-8 py-4 border border-white/15 text-white/100 text-sm rounded-md hover:cursor-pointer">
+        {t('hero.contact')}
+      </Link>
       </div>
     </section>
   );
