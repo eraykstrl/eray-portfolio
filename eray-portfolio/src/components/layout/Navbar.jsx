@@ -49,7 +49,7 @@ function Navbar() {
 
         <button
           onClick={toggleLanguage}
-          className="hidden md:block font-mono text-white px-4 py-2 border border-white/20 text-xs rounded hover:bg-[#002113] hover:cursor-pointer">
+          className="font-mono text-white px-4 py-2 border border-white/20 text-xs rounded hover:bg-[#002113] hover:cursor-pointer">
             {language}
         </button>
 
