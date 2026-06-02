@@ -8,7 +8,7 @@
   },
   "hero": {
   "status": "Open to new opportunities",
-  "title": "Building Digital Products",
+  "title": "Computer Engineering Student",
   "with": "with",
   "description": "Computer engineering student focused on mobile development, frontend, backend and machine learning — building end-to-end applications from idea to deployment.",
   "viewProjects": "View Projects",
@@ -80,7 +80,7 @@
     "beDocker": "Docker",
     "beDockerDesc": "Containerization & isolated environments"
   },
-  
+
   "experience": {
     "journeyTitle": "My Journey",
     
