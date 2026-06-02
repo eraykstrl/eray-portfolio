@@ -55,8 +55,9 @@ function Projects() {
       </div>
         <div className="flex items-center justify-center bg-[#121212] py-6">
           <Link
-           to = "https://github.com/eraykstrl"
-           className="text-white/100 rounded-md px-8 py-6 bg-[#0D1C2D]">
+            to="https://github.com/eraykstrl"
+            className="text-white rounded-md px-8 py-6 bg-[#7A1E2C] hover:bg-[#9B2635] transition"
+          >
             {t('projects.allproject')}
           </Link>
         </div>

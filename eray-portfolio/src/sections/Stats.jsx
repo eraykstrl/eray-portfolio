@@ -12,7 +12,7 @@ function Stats() {
   ];
   
   return(
-    <div className="grid grid-cols-3 max-w-5xl w-full mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-3 max-w-5xl w-full mx-auto">
       {stats.map((stat) => (
         <div key={stat.label} className="px-8 py-6 border-r border-white/7 last:border-r-0">
           <p className="font-mono text-[16px] text-emerald-400 tracking-widest">
