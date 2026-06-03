@@ -32,7 +32,7 @@ function Hero() {
           {t('hero.viewProjects')}
       </Link>
       <Link 
-        to = "mailto:eray.kostereli.com"
+        to = "mailto:eray.kostereli@gmail.com"
         className="px-8 py-4 border border-white/15 text-white/100 text-sm rounded-md hover:cursor-pointer">
         {t('hero.contact')}
       </Link>
